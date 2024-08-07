@@ -4,14 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Register from './Register'
 import Login from './Login'
-
+// 1. import `NextUIProvider` component
+// import {NextUIProvider} from "@nextui-org/system";
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
    <main className="App">
      <Register />
-     <Login />
+     {/* <Login /> */}
    </main>
   )
 }
